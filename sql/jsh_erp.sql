@@ -14,7 +14,9 @@ File Encoding         : 65001
 
 Date: 2018-10-28 23:21:22
 */
-
+drop database if exists jsh_erp;
+create database jsh_erp;
+use jsh_erp;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
